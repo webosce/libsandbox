@@ -1,4 +1,4 @@
-# Copyright (c) 2010-2018 LG Electronics, Inc.
+# Copyright (c) 2010-2024 LG Electronics, Inc.
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -21,7 +21,6 @@ project(sandbox CXX)
 include(webOS/webOS)
 webos_modules_init(1 0 0 QUALIFIER RC2)
 webos_component(2 0 0)
-webos_machine_impl_dep()
 
 webos_build_pkgconfig()
 include_directories(include/public)
